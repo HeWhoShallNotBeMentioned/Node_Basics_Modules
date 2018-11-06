@@ -1,0 +1,11 @@
+// const exportsFromFileB = require('./fileB');
+// exportsFromFileB();
+//require('./fileB');
+const exportsFromFileB = require('./fileB');
+console.log(exportsFromFileB);
+const exportsFromSnippet1 = require('./snippet1');
+console.log(exportsFromSnippet1);
+const exportsFromSnippet2 = require('./snippet2');
+console.log(exportsFromSnippet2);
+const exportsFromSnippet3 = require('./snippet3');
+console.log(exportsFromSnippet3);
